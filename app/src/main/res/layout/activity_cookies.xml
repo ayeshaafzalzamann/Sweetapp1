@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cookies">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/head">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="146dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="monospace"
+            android:text="RECIPIES"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/caramelcookies"
+            android:layout_width="389dp"
+            android:layout_height="215dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="286dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/saltedcaramel" />
+
+        <ImageView
+            android:id="@+id/chocolatecookie"
+            android:layout_width="389dp"
+            android:layout_height="215dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="600dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/chocolatechip" />
+
+        <Button
+            android:id="@+id/caramelbtn"
+            android:layout_width="135dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="137dp"
+            android:layout_marginLeft="605dp"
+            android:layout_marginTop="508dp"
+            android:layout_marginEnd="101dp"
+            android:backgroundTint="#FAA997"
+            android:text="Recipe" />
+
+        <Button
+            android:id="@+id/caramelbtn1"
+            android:layout_width="135dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="139dp"
+            android:layout_marginLeft="605dp"
+            android:layout_marginTop="549dp"
+            android:layout_marginEnd="99dp"
+            android:backgroundTint="#FAA997"
+            android:text="Watch" />
+
+        <Button
+            android:id="@+id/choclatechip"
+            android:layout_width="135dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="139dp"
+            android:layout_marginLeft="605dp"
+            android:layout_marginTop="819dp"
+            android:layout_marginEnd="99dp"
+            android:backgroundTint="#FAA997"
+            android:text="Recipe"/>
+        <Button
+            android:id="@+id/choclatechip1"
+            android:layout_width="135dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="139dp"
+            android:layout_marginLeft="05dp"
+            android:layout_marginTop="860dp"
+            android:layout_marginEnd="99dp"
+            android:backgroundTint="#FAA997"
+            android:text="Watch"/>
+        <ImageButton
+            android:id="@+id/arrow1"
+
+            android:layout_width="122dp"
+            android:layout_height="127dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="292dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arrow" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
